@@ -1,0 +1,33 @@
+### TODO ###
+
+Solution :
+	- Find a good .NET gitignore
+
+Tests :
+	- FileManager open / read / directory filenames
+	- config with dummy / null / etc
+
+FileManager :
+	- parse links file with csv ?
+
+Tools :
+	- rawContent to IEnumerable<string> for csv links
+
+Main :
+	- Define core execution logic :
+		- Interactive? 1-1-1 (1 vid info => download => convert)? Ite (all vidInfo => all ...)?
+		- See "FIXME Logs" for fluent execution logic
+		- Implement logs for better full version debuging
+	- Config :
+		- Add possibility to only download / only convert / create a file containg parsable list of already process videos stuff like that
+
+Processing Task :
+	- define better implentation : list of actions, list of tasks with each continues?
+	- does 'scenarios' are a thing in Tasks like 'full handle of link' end to end so we make a task.continue.continue...
+	- Need main beforehand
+
+EVOLUTIONS :
+	- Define a yt2mp3 exception type
+	- Add more formats capacities (audio in particular)
+	- Playlist handling
+	- python or other Youtube lib to be able to search and retrieve by terms and not only links

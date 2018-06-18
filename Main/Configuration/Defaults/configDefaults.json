@@ -1,0 +1,13 @@
+﻿{
+  "videoFolderPath": "C/temp/videoFolder",
+  "audioFolderPath": "C:/temp/audioFolder",
+  "ytLinksCsv": "C:/temp/ytLinks.csv",
+  "maxAsyncVideoInfo": 10,
+  "maxAsyncVideoDownloads": 10,
+  "maxAsyncConvertions": 10,
+  "convertionOptions": {
+    "deleteAfterConvertion": true,
+    "audioFormat": "mp3",
+    "quality": 320
+  }
+}
